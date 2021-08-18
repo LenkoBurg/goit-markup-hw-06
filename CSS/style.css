@@ -962,5 +962,5 @@ p {
   margin-right: 10px;
 }
 .modal-checkbox:checked + .modal-checkbox-label::before {
-  background-image: url(../images/icon.svg);
+  background-image: url(../images/icon-check-1);
 }
