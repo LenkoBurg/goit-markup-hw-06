@@ -78,9 +78,7 @@ info@devstudio.com</a></li>
         <div class="container">
     <h2 class="main-headlines">Чем мы занимаемся</h2>
     <ul class="images">
-        <li class="img-list"><div class="relat"><img src="./images/img1.jpg" width=370 height="294" alt="разработчик работает над проектом"><div class="absol"><p class="descrip">ДЕСКТОПНЫЕ ПРИЛОЖЕНИЕ</p></div></li>
-        <li class="img-list">
-           
+        <li class="img-list"><div class="relat"><img src="./images/img1.jpg" width=370 height="294" alt="разработчик работает над проектом"><div class="absol"><p class="descrip">ДЕСКТОПНЫЕ ПРИЛОЖЕНИЕ</p></div></div></li>
         <li class="img-list"><div class="relat"><img src="./images/img2.jpg" width="370" height="294" alt="дизайнеры работают над мобильным приложением"><div class="absol"><p class="descrip">МОБИЛЬНЫЕ ПРИЛОЖЕНИЕ</p></div></div></li>
         <li class="img-list"><div class="relat"><img src="./images/img3.jpg" width="370" height="294" alt="креативный веб дизайнер выбирает цвет на планшете"><div class="absol"><p class="descrip">ДИЗАЙНЕРСКИЕ РЕШЕНИЯ</p></div></div></li>
     </ul>
@@ -199,7 +197,7 @@ info@devstudio.com</a></li>
 <form action="footer-form">
     <b class="footer-b">Подпишитесь на рассылку</b>
     <span class="footer-span">
-        <input type="email" name="user-email" id="" required placeholder="E-mail" class="footer-imput">
+        <input type="email" name="user-email"  required placeholder="E-mail" class="footer-imput">
         <button type="submit" class="footer-button">Подписаться
             <svg width="24" height="24"><use href="./images/icons/sprite.svg#icon-icon-send"></use></svg>
         </button>
@@ -215,12 +213,12 @@ info@devstudio.com</a></li>
     </svg>
         </button>
             <b class="modal-title">Оставьте свои данные, мы вам перезвоним</b>
-            <form action="" class="modal-form">
+            <form  class="modal-form">
             <!-- <div class="modal-field"> -->
                
                 <label for="input-name" class="section-text modal-text"> Имя
                    <span class="input-wraper">
-                <input type="text" name="user-name" class="modal-imput" minlength="2">
+                <input type="text" id="input-name" name="user-name" class="modal-imput" minlength="2">
         <svg height="18" width="18" class="modal-icon">
             <use href=./images/icons/sprite.svg#icon-person-black-18dp-1></use>
         </svg>
@@ -228,8 +226,8 @@ info@devstudio.com</a></li>
          </label>
             <label for="input-name" class="section-text modal-text"> Телефон
                 <span class="input-wraper">
-                    <input type="text" name="user-form" class="modal-imput"
-                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" title="096-111-11-11"
+                    <input type="text" id="input-name"  name="user-form" class="modal-imput"
+                     title="096-111-11-11"
                     required>
                     <svg height="18" width="18" class="modal-icon">
                         <use href=./images/icons/sprite.svg#icon-phone-black-18dp-1></use>
@@ -239,19 +237,19 @@ info@devstudio.com</a></li>
 
         <label for="input-name" class="section-text modal-text">Почта
             <span class="input-wraper">
-                <input type="text" name="user-email"
-                pattern="[a-zA-Zа-яА-я]+" class="modal-imput" required>
+                <input type="text" id="input-name" name="user-email"
+                 class="modal-imput" required>
                 <svg height="18" width="18" class="modal-icon">
                     <use href=./images/icons/sprite.svg#icon-email-black-18dp-1></use>
                 </svg>
             </span>
         </label>
-        <label for="input-name" class="section-text modal-text"> Комментарий
-         <textarea name="user-comment" id="" class="comment" placeholder="Введите текст"></textarea>
+        <label  class="section-text modal-text"> Комментарий
+         <textarea name="user-comment"  class="comment" placeholder="Введите текст"></textarea>
                
-            </span>
+        
         </label>
-       <input type="checkbox" name="" id="accept-policy" class="modal-checkbox visual-hiden">
+       <input type="checkbox" name="submit" id="accept-policy" class="modal-checkbox visual-hiden">
         <label for="accept-policy" class="modal-checkbox-label">Соглашаюсь с рассылкой и принимаю
              <a href="" class="modal-link">Условия договора</a></label>
              <button type="submit" class="modal-btn">Отправить</button>
